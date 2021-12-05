@@ -8,26 +8,48 @@ body{
    
 }
 .width{
-    margin-right: 10%;
-    margin-left: 10%;
-   
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-decoration: none;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.random{
+
+.width2{
+    text-decoration: none;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*.random{
     margin-top: 1500px;
+}*/
+.color{
+    display: block;
+    background: #FAF4F0;
+    margin-bottom: 150px;;
 }
 
 
-
+/*____________________________________LOGO____________________________________*/
 
 
 .logo{
 
     position: fixed;
-    height: 5%;
+    height: 8%;
     top: 10px;
     left: 10px;
     z-index: 10;
 }
+
+
+/*_______________________________ÚVODNÉ 2 OBRÁZKY_______________________________*/
+
+
 .container{ 
     display: block ;
     margin-left: -232px;
@@ -57,11 +79,7 @@ body{
     
 }
 
-
-
-
-
-
+/* _______________________________MENU BAR____________________________________ */
 
 
 .tab{
@@ -96,16 +114,16 @@ li{
 li:first-of-type{
     border-left: #000;
 }
-a{
+.amenu{
     text-decoration: none;
     color: #fff;
 }
-a:hover{
+.amenu:hover{
     color: red;
 }
 
 
-
+/* ____________________________________CITÁT____________________________________*/
 
 
 q{
@@ -127,40 +145,284 @@ blockquote{
 }
 
 
-
+/* _______________________________O SKOLE SEKCIA_______________________________*/
 
 
 .containter2{
-    background-color: #fff;
-    height: 30vh;
-    width: 25vw;
+    background-color: #FAF4F0;
+    height: 300px;
+    width: 500px;
     display: flex;
     justify-content: center;
     background-position: center;
-    overflow: hidden;
     float: left;
-    padding: 15px;
+    
+   padding-top: 10px;
+   padding-bottom: 10px;
+    margin-left: -60px;
+    padding-right: 60px;
 }
 
 .picture2{
-    height: 350px;
+    height: 300px;
     width: 500px;
     background: url('/foto/class.jpg') no-repeat;
-    background-size: 100%;
-    margin-top: -29px;
     background-position: center;
-    transition: 1s;
+    
+    
+   /*  
+   transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
-    -o-transition: 1s;
-}
-
-.picture2:hover{
-    background-size: 150%;
-    background-position: center;
-}
-
-.head{
+    -o-transition: 1s; */
    
 }
+
+/*.picture2:hover{
+    background-size: 150%;
+    background-position: center;
+}*/
+
+.head{
+    padding-top: 30px;
+   font-family: cursive;
+}
+aside{
+    background: #FAF4F0;
+}
+
+.oskole{
+    display: block;
+    padding: 12px;
+    padding-bottom: 138px;
+    font-size: 18px;
+  
+}
+.button{
+    display: block;
+    color: #fff;
+    background-color: #183949;
+    
+    border: solid #183949;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    padding: 5px 5px 6px 5px;
+  
+    text-decoration: none ;
+    
+    
+}
+.buttonposition{
+    margin-left: 1100px;
+    margin-top: -140px;
+    padding-bottom: 27px;
+}
+.button:hover{
+ background:#183949;
+ color: #B43C4E;
+ border: solid #183949;
+}
+
+
+/*___________________________________ODBORY___________________________________*/
+
+
+main{
+    display: flex;
+    text-align: center;
+    border: #fff solid;
+    margin-right:   -5%;
+    margin-left: -5%;
+    margin-bottom: 150px;
+}
+.odbor{
+    display: block;
+    margin-left: 125px;
+    margin-top: 225px;
+}
+#odborfix{
+    margin-left: 75px;
+    margin-top: 215px;
+}
+.boxset{
+    display: flex;
+    border: solid #fff;
+    background-color: #FAF4F0;
+    width: 290px;
+    height: 300px;
+    margin-left: 0;
+    padding-right:  0;
+    margin-right: 25px;
+    box-shadow: 3px 3px 3px 3px rgba(78, 49, 49, 0.034);
+    overflow: hidden;
+}
+.boxset:hover{
+    box-shadow: 3px 3px 3px 3px rgba(78, 49, 49, 0.226) ;
+    background-color:#1f100600 ;
+}
+.pictureIKT{
+    height: 193px;
+    width: 290px;
+    background: url('/foto-odbory/IKT.jpg') no-repeat;
+    background-size: 100%;
+    margin-left: -162px;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+   
+}
+.pictureIKT:hover{
+    background-size: 125%;
+    background-position: left right;
+  
+}   
+.picturePIT{
+    height: 193px;
+    width: 290px;
+    background: url('/foto-odbory/PIT.png') no-repeat;
+    background-size: 100%;
+    margin-left: -162px;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+.picturePIT:hover{
+    background-size: 125%;
+    background-position: left right;
+}
+.pictureOBZ{
+    height: 193px;
+    width: 290px;
+    background: url('/foto-odbory/OBZ2.jpg') no-repeat;
+    background-size: 120%;
+    margin-left: -172px;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+.pictureOBZ:hover{
+    background-size: 155%;
+    background-position: left right;
+}
+.picturePOS{
+    height: 193px;
+    width: 290px;
+    background: url('/foto-odbory/POS.png') no-repeat;
+    background-size: 100%;
+    margin-left: -172px;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+.picturePOS:hover{
+    background-size: 125%;
+    background-position: left right;
+}
+.pictureTL{
+    height: 225px;
+    width: 400px;
+    background: url('/foto-odbory/brit.jpg') no-repeat;
+    background-size: 120%;
+    margin-left: -272px;
+    margin-top: -30px;
+   
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+.pictureTL:hover{
+    background-size: 155%;
+    background-position: top left;
+}
+.new{
+    display: block;
+    position: absolute;
+    text-transform: uppercase;
+    font-family:monospace;
+    background-color: red;
+    border: solid red;
+    color: #000;
+    width: 286px;
+    margin-left: 2px;
+    margin-top: -120px;
+}
+
+
+
+
+/*___________________________________MAPA___________________________________
+
+
+.mapbox{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background: #FAF4F0;
+    border: solid #fff;
+    margin-bottom: 150px;
+    padding: 5px;
+}
+.mapbox iframe{
+    height: 100%;
+    width: 100%;
+}
+.where{
+    display: block;
+    background: #FAF4F0;
+    border: solid #fff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+<section class="width2">
+    <h2 class="where">Kde nás nájdete?</h2>
+    <div class="mapbox">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.8112279672887!2d17.029218751607!3d48.190988522074356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8cbefbdd8a09%3A0xa7fc6ab111523756!2sSP%C5%A0E%20Karola%20Adlera!5e0!3m2!1ssk!2ssk!4v1638729122113!5m2!1ssk!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+*/
+
+
+/*___________________________________PARTNERI___________________________________*/
+
+
+.sponzori{
+    display: block;
+    margin-left: -15%;
+    margin-right: -18%;
+   
+    
+    
+   
+}
+.picture-sponzori{
+    background: url('/foto-sponzori/sponzori.png');
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 200px;
+    margin-left: -100px;
+}
+
+/*___________________________________FOOTER___________________________________*/
+
+
+
